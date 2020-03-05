@@ -1,0 +1,745 @@
+[2020-03-04 16:24:35,041] sopel.bot            INFO     - Loading plugins...
+[2020-03-04 16:24:35,050] sopel.bot            INFO     - Plugin loaded: countdown
+[2020-03-04 16:24:35,058] sopel.bot            INFO     - Plugin loaded: dice
+[2020-03-04 16:24:35,062] sopel.bot            INFO     - Plugin loaded: pronouns
+[2020-03-04 16:24:35,168] sopel.modules.safety INFO     - Downloading malwaredomains db from https://mirror1.malwaredomains.com/files/justdomains
+[2020-03-04 16:24:35,677] sopel.bot            INFO     - Plugin loaded: safety
+[2020-03-04 16:24:35,692] sopel.bot            INFO     - Plugin loaded: units
+[2020-03-04 16:24:35,701] sopel.bot            INFO     - Plugin loaded: remind
+[2020-03-04 16:24:35,706] sopel.bot            INFO     - Plugin loaded: tld
+[2020-03-04 16:24:35,714] sopel.bot            INFO     - Plugin loaded: wiktionary
+[2020-03-04 16:24:35,726] sopel.bot            INFO     - Plugin loaded: xkcd
+[2020-03-04 16:24:35,781] sopel.bot            INFO     - Plugin loaded: reddit
+[2020-03-04 16:24:35,794] sopel.bot            INFO     - Plugin loaded: reload
+[2020-03-04 16:24:35,797] sopel.bot            INFO     - Plugin loaded: etymology
+[2020-03-04 16:24:35,809] sopel.bot            INFO     - Plugin loaded: search
+[2020-03-04 16:24:35,822] sopel.bot            INFO     - Plugin loaded: translate
+[2020-03-04 16:24:35,825] sopel.bot            INFO     - Plugin loaded: unicode_info
+[2020-03-04 16:24:35,856] sopel.bot            INFO     - Plugin loaded: adminchannel
+[2020-03-04 16:24:35,857] sopel.bot            INFO     - Plugin loaded: find_updates
+[2020-03-04 16:24:35,890] sopel.bot            INFO     - Plugin loaded: admin
+[2020-03-04 16:24:35,892] sopel.bot            INFO     - Plugin loaded: bugzilla
+[2020-03-04 16:24:35,895] sopel.bot            INFO     - Plugin loaded: announce
+[2020-03-04 16:24:35,898] sopel.bot            INFO     - Plugin loaded: rand
+[2020-03-04 16:24:35,905] sopel.bot            INFO     - Plugin loaded: help
+[2020-03-04 16:24:35,908] sopel.bot            INFO     - Plugin loaded: uptime
+[2020-03-04 16:24:35,913] sopel.bot            INFO     - Plugin loaded: version
+[2020-03-04 16:24:35,922] sopel.bot            INFO     - Plugin loaded: lmgtfy
+[2020-03-04 16:24:35,925] sopel.bot            INFO     - Plugin loaded: find
+[2020-03-04 16:24:35,965] sopel.bot            INFO     - Plugin loaded: clock
+[2020-03-04 16:24:36,011] sopel.bot            INFO     - Plugin loaded: emoticons
+[2020-03-04 16:24:36,018] sopel.bot            INFO     - Plugin loaded: wikipedia
+[2020-03-04 16:24:36,024] sopel.bot            INFO     - Plugin loaded: choose
+[2020-03-04 16:24:36,026] sopel.bot            INFO     - Plugin loaded: ping
+[2020-03-04 16:24:36,030] sopel.bot            INFO     - Plugin loaded: calc
+[2020-03-04 16:24:36,032] sopel.bot            INFO     - Plugin loaded: seen
+[2020-03-04 16:24:36,040] sopel.bot            INFO     - Plugin loaded: currency
+[2020-03-04 16:24:36,063] sopel.bot            INFO     - Plugin loaded: meetbot
+[2020-03-04 16:24:36,067] sopel.bot            INFO     - Plugin loaded: url
+[2020-03-04 16:24:36,082] sopel.bot            INFO     - Plugin loaded: ip
+[2020-03-04 16:24:36,086] sopel.bot            INFO     - Plugin loaded: py
+[2020-03-04 16:24:36,089] sopel.bot            INFO     - Plugin loaded: invite
+[2020-03-04 16:24:36,094] sopel.bot            INFO     - Plugin loaded: isup
+[2020-03-04 16:24:36,095] sopel.bot            INFO     - Plugin loaded: instagram
+[2020-03-04 16:24:36,103] sopel.bot            INFO     - Plugin loaded: tell
+[2020-03-04 16:24:36,115] sopel.bot            INFO     - Plugin loaded: coretasks
+[2020-03-04 16:24:36,116] sopel.bot            INFO     - Registered 42 plugins, 0 failed, 0 disabled
+[2020-03-04 16:24:36,117] sopel.irc.backends   INFO     - Connecting to 10.4.163.34:6667...
+[2020-03-04 16:24:36,119] sopel.irc.backends   INFO     - Connection accepted by the server...
+[2020-03-04 16:24:36,121] sopel.irc            INFO     - Connected.
+[2020-03-04 16:24:36,126] sopel.irc            ERROR    - Nickname already in use!
+[2020-03-04 16:24:37,122] sopel.irc.backends   INFO     - Connection closed...
+[2020-03-04 16:24:37,122] sopel.bot            INFO     - Stopping the Job Scheduler.
+[2020-03-04 16:24:38,135] sopel.bot            INFO     - Job Scheduler stopped.
+[2020-03-04 16:24:38,135] sopel.bot            INFO     - Calling shutdown for 9 plugins.
+[2020-03-04 16:24:38,136] sopel.irc.backends   INFO     - Closed!
+[2020-03-04 16:24:38,138] sopel.cli.run        WARNING  - Disconnected. Reconnecting in 20 seconds...
+[2020-03-04 16:24:43,131] sopel.cli.run        WARNING  - Got quit signal, shutting down.
+[2020-03-04 16:24:44,059] sopel.cli.run        WARNING  - Got quit signal, shutting down.
+[2020-03-04 16:26:02,038] sopel.bot            INFO     - Loading plugins...
+[2020-03-04 16:26:02,046] sopel.bot            INFO     - Plugin loaded: countdown
+[2020-03-04 16:26:02,055] sopel.bot            INFO     - Plugin loaded: dice
+[2020-03-04 16:26:02,061] sopel.bot            INFO     - Plugin loaded: pronouns
+[2020-03-04 16:26:02,197] sopel.bot            INFO     - Plugin loaded: safety
+[2020-03-04 16:26:02,210] sopel.bot            INFO     - Plugin loaded: units
+[2020-03-04 16:26:02,220] sopel.bot            INFO     - Plugin loaded: remind
+[2020-03-04 16:26:02,227] sopel.bot            INFO     - Plugin loaded: tld
+[2020-03-04 16:26:02,236] sopel.bot            INFO     - Plugin loaded: wiktionary
+[2020-03-04 16:26:02,248] sopel.bot            INFO     - Plugin loaded: xkcd
+[2020-03-04 16:26:02,304] sopel.bot            INFO     - Plugin loaded: reddit
+[2020-03-04 16:26:02,319] sopel.bot            INFO     - Plugin loaded: reload
+[2020-03-04 16:26:02,322] sopel.bot            INFO     - Plugin loaded: etymology
+[2020-03-04 16:26:02,333] sopel.bot            INFO     - Plugin loaded: search
+[2020-03-04 16:26:02,345] sopel.bot            INFO     - Plugin loaded: translate
+[2020-03-04 16:26:02,348] sopel.bot            INFO     - Plugin loaded: unicode_info
+[2020-03-04 16:26:02,378] sopel.bot            INFO     - Plugin loaded: adminchannel
+[2020-03-04 16:26:02,379] sopel.bot            INFO     - Plugin loaded: find_updates
+[2020-03-04 16:26:02,409] sopel.bot            INFO     - Plugin loaded: admin
+[2020-03-04 16:26:02,411] sopel.bot            INFO     - Plugin loaded: bugzilla
+[2020-03-04 16:26:02,414] sopel.bot            INFO     - Plugin loaded: announce
+[2020-03-04 16:26:02,418] sopel.bot            INFO     - Plugin loaded: rand
+[2020-03-04 16:26:02,424] sopel.bot            INFO     - Plugin loaded: help
+[2020-03-04 16:26:02,427] sopel.bot            INFO     - Plugin loaded: uptime
+[2020-03-04 16:26:02,431] sopel.bot            INFO     - Plugin loaded: version
+[2020-03-04 16:26:02,440] sopel.bot            INFO     - Plugin loaded: lmgtfy
+[2020-03-04 16:26:02,443] sopel.bot            INFO     - Plugin loaded: find
+[2020-03-04 16:26:02,491] sopel.bot            INFO     - Plugin loaded: clock
+[2020-03-04 16:26:02,551] sopel.bot            INFO     - Plugin loaded: emoticons
+[2020-03-04 16:26:02,558] sopel.bot            INFO     - Plugin loaded: wikipedia
+[2020-03-04 16:26:02,563] sopel.bot            INFO     - Plugin loaded: choose
+[2020-03-04 16:26:02,565] sopel.bot            INFO     - Plugin loaded: ping
+[2020-03-04 16:26:02,569] sopel.bot            INFO     - Plugin loaded: calc
+[2020-03-04 16:26:02,572] sopel.bot            INFO     - Plugin loaded: seen
+[2020-03-04 16:26:02,580] sopel.bot            INFO     - Plugin loaded: currency
+[2020-03-04 16:26:02,623] sopel.bot            INFO     - Plugin loaded: meetbot
+[2020-03-04 16:26:02,627] sopel.bot            INFO     - Plugin loaded: url
+[2020-03-04 16:26:02,644] sopel.bot            INFO     - Plugin loaded: ip
+[2020-03-04 16:26:02,646] sopel.bot            INFO     - Plugin loaded: py
+[2020-03-04 16:26:02,654] sopel.bot            INFO     - Plugin loaded: invite
+[2020-03-04 16:26:02,659] sopel.bot            INFO     - Plugin loaded: isup
+[2020-03-04 16:26:02,661] sopel.bot            INFO     - Plugin loaded: instagram
+[2020-03-04 16:26:02,671] sopel.bot            INFO     - Plugin loaded: tell
+[2020-03-04 16:26:02,680] sopel.bot            INFO     - Plugin loaded: coretasks
+[2020-03-04 16:26:02,681] sopel.bot            INFO     - Registered 42 plugins, 0 failed, 0 disabled
+[2020-03-04 16:26:02,682] sopel.irc.backends   INFO     - Connecting to 10.4.163.34:6667...
+[2020-03-04 16:26:02,685] sopel.irc.backends   INFO     - Connection accepted by the server...
+[2020-03-04 16:26:02,686] sopel.irc            INFO     - Connected.
+[2020-03-04 16:26:03,699] sopel.coretasks      INFO     - Joining 1 channels (with JOIN throttle OFF); this may take a moment.
+[2020-03-04 16:26:03,831] sopel.coretasks      INFO     - Channel joined: #point
+[2020-03-04 16:26:14,651] sopel.cli.run        WARNING  - Got quit signal, shutting down.
+[2020-03-04 16:26:14,663] sopel.irc            ERROR    - ERROR received from server: Closing link: (sopel@jlogerqubox.adtran.com) [Quit: Closing]
+[2020-03-04 16:26:14,738] sopel.irc.backends   INFO     - Connection closed...
+[2020-03-04 16:26:14,738] sopel.bot            INFO     - Stopping the Job Scheduler.
+[2020-03-04 16:26:15,742] sopel.bot            INFO     - Job Scheduler stopped.
+[2020-03-04 16:26:15,743] sopel.bot            INFO     - Calling shutdown for 9 plugins.
+[2020-03-04 16:26:15,743] sopel.irc.backends   INFO     - Closed!
+[2020-03-04 16:50:30,281] sopel.bot            INFO     - Loading plugins...
+[2020-03-04 16:50:30,406] sopel.bot            INFO     - Plugin loaded: countdown
+[2020-03-04 16:50:30,417] sopel.bot            INFO     - Plugin loaded: dice
+[2020-03-04 16:50:30,422] sopel.bot            INFO     - Plugin loaded: pronouns
+[2020-03-04 16:50:30,685] sopel.bot            INFO     - Plugin loaded: safety
+[2020-03-04 16:50:30,699] sopel.bot            INFO     - Plugin loaded: units
+[2020-03-04 16:50:30,730] sopel.bot            INFO     - Plugin loaded: remind
+[2020-03-04 16:50:30,734] sopel.bot            INFO     - Plugin loaded: tld
+[2020-03-04 16:50:30,742] sopel.bot            INFO     - Plugin loaded: wiktionary
+[2020-03-04 16:50:30,769] sopel.bot            INFO     - Plugin loaded: xkcd
+[2020-03-04 16:50:30,901] sopel.bot            INFO     - Plugin loaded: reddit
+[2020-03-04 16:50:30,913] sopel.bot            INFO     - Plugin loaded: reload
+[2020-03-04 16:50:30,916] sopel.bot            INFO     - Plugin loaded: etymology
+[2020-03-04 16:50:30,930] sopel.bot            INFO     - Plugin loaded: search
+[2020-03-04 16:50:30,941] sopel.bot            INFO     - Plugin loaded: translate
+[2020-03-04 16:50:30,944] sopel.bot            INFO     - Plugin loaded: unicode_info
+[2020-03-04 16:50:30,972] sopel.bot            INFO     - Plugin loaded: adminchannel
+[2020-03-04 16:50:30,973] sopel.bot            INFO     - Plugin loaded: find_updates
+[2020-03-04 16:50:31,000] sopel.bot            INFO     - Plugin loaded: admin
+[2020-03-04 16:50:31,003] sopel.bot            INFO     - Plugin loaded: bugzilla
+[2020-03-04 16:50:31,006] sopel.bot            INFO     - Plugin loaded: announce
+[2020-03-04 16:50:31,009] sopel.bot            INFO     - Plugin loaded: rand
+[2020-03-04 16:50:31,016] sopel.bot            INFO     - Plugin loaded: help
+[2020-03-04 16:50:31,019] sopel.bot            INFO     - Plugin loaded: uptime
+[2020-03-04 16:50:31,024] sopel.bot            INFO     - Plugin loaded: version
+[2020-03-04 16:50:31,032] sopel.bot            INFO     - Plugin loaded: lmgtfy
+[2020-03-04 16:50:31,039] sopel.bot            INFO     - Plugin loaded: find
+[2020-03-04 16:50:31,086] sopel.bot            INFO     - Plugin loaded: clock
+[2020-03-04 16:50:31,126] sopel.bot            INFO     - Plugin loaded: emoticons
+[2020-03-04 16:50:31,133] sopel.bot            INFO     - Plugin loaded: wikipedia
+[2020-03-04 16:50:31,141] sopel.bot            INFO     - Plugin loaded: choose
+[2020-03-04 16:50:31,145] sopel.bot            INFO     - Plugin loaded: ping
+[2020-03-04 16:50:31,150] sopel.bot            INFO     - Plugin loaded: calc
+[2020-03-04 16:50:31,153] sopel.bot            INFO     - Plugin loaded: seen
+[2020-03-04 16:50:31,162] sopel.bot            INFO     - Plugin loaded: currency
+[2020-03-04 16:50:31,188] sopel.bot            INFO     - Plugin loaded: meetbot
+[2020-03-04 16:50:31,191] sopel.bot            INFO     - Plugin loaded: url
+[2020-03-04 16:50:31,227] sopel.bot            INFO     - Plugin loaded: ip
+[2020-03-04 16:50:31,231] sopel.bot            INFO     - Plugin loaded: py
+[2020-03-04 16:50:31,236] sopel.bot            INFO     - Plugin loaded: invite
+[2020-03-04 16:50:31,242] sopel.bot            INFO     - Plugin loaded: isup
+[2020-03-04 16:50:31,245] sopel.bot            INFO     - Plugin loaded: instagram
+[2020-03-04 16:50:31,254] sopel.bot            INFO     - Plugin loaded: tell
+[2020-03-04 16:50:31,256] sopel.bot            ERROR    - Error loading pointBot: invalid syntax (pointBot.py, line 5)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/sopel/bot.py", line 206, in setup_plugins
+    plugin.load()
+  File "/usr/local/lib/python3.6/dist-packages/sopel/plugins/handlers.py", line 361, in load
+    self._module = self._load()
+  File "/usr/local/lib/python3.6/dist-packages/sopel/plugins/handlers.py", line 344, in _load
+    mod = imp.load_module(self.name, mod, self.path, description)
+  File "/usr/lib/python3.6/imp.py", line 235, in load_module
+    return load_source(name, filename, file)
+  File "/usr/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jlogerqu/git/irc/sopel/plugins/pointBot.py", line 5
+    amount = (int)trigger.group(1)[1:]
+                        ^
+SyntaxError: invalid syntax
+[2020-03-04 16:50:31,284] sopel.bot            INFO     - Plugin loaded: coretasks
+[2020-03-04 16:50:31,284] sopel.bot            INFO     - Registered 42 plugins, 1 failed, 0 disabled
+[2020-03-04 16:50:31,285] sopel.irc.backends   INFO     - Connecting to 10.4.163.34:6667...
+[2020-03-04 16:50:31,287] sopel.irc.backends   INFO     - Connection accepted by the server...
+[2020-03-04 16:50:31,288] sopel.irc            INFO     - Connected.
+[2020-03-04 16:50:32,701] sopel.coretasks      INFO     - Joining 1 channels (with JOIN throttle OFF); this may take a moment.
+[2020-03-04 16:50:32,819] sopel.coretasks      INFO     - Channel joined: #point
+[2020-03-04 16:50:35,449] sopel.cli.run        WARNING  - Got quit signal, shutting down.
+[2020-03-04 16:50:35,451] sopel.irc            ERROR    - ERROR received from server: Closing link: (sopel@jlogerqubox.adtran.com) [Quit: Closing]
+[2020-03-04 16:50:36,301] sopel.irc.backends   INFO     - Connection closed...
+[2020-03-04 16:50:36,302] sopel.bot            INFO     - Stopping the Job Scheduler.
+[2020-03-04 16:50:37,302] sopel.bot            INFO     - Job Scheduler stopped.
+[2020-03-04 16:50:37,302] sopel.bot            INFO     - Calling shutdown for 9 plugins.
+[2020-03-04 16:50:37,303] sopel.irc.backends   INFO     - Closed!
+[2020-03-04 16:51:25,207] sopel.bot            INFO     - Loading plugins...
+[2020-03-04 16:51:25,218] sopel.bot            INFO     - Plugin loaded: countdown
+[2020-03-04 16:51:25,230] sopel.bot            INFO     - Plugin loaded: dice
+[2020-03-04 16:51:25,236] sopel.bot            INFO     - Plugin loaded: pronouns
+[2020-03-04 16:51:25,348] sopel.bot            INFO     - Plugin loaded: safety
+[2020-03-04 16:51:25,363] sopel.bot            INFO     - Plugin loaded: units
+[2020-03-04 16:51:25,373] sopel.bot            INFO     - Plugin loaded: remind
+[2020-03-04 16:51:25,376] sopel.bot            INFO     - Plugin loaded: tld
+[2020-03-04 16:51:25,386] sopel.bot            INFO     - Plugin loaded: wiktionary
+[2020-03-04 16:51:25,394] sopel.bot            INFO     - Plugin loaded: xkcd
+[2020-03-04 16:51:25,462] sopel.bot            INFO     - Plugin loaded: reddit
+[2020-03-04 16:51:25,473] sopel.bot            INFO     - Plugin loaded: reload
+[2020-03-04 16:51:25,476] sopel.bot            INFO     - Plugin loaded: etymology
+[2020-03-04 16:51:25,487] sopel.bot            INFO     - Plugin loaded: search
+[2020-03-04 16:51:25,497] sopel.bot            INFO     - Plugin loaded: translate
+[2020-03-04 16:51:25,500] sopel.bot            INFO     - Plugin loaded: unicode_info
+[2020-03-04 16:51:25,529] sopel.bot            INFO     - Plugin loaded: adminchannel
+[2020-03-04 16:51:25,530] sopel.bot            INFO     - Plugin loaded: find_updates
+[2020-03-04 16:51:25,558] sopel.bot            INFO     - Plugin loaded: admin
+[2020-03-04 16:51:25,562] sopel.bot            INFO     - Plugin loaded: bugzilla
+[2020-03-04 16:51:25,567] sopel.bot            INFO     - Plugin loaded: announce
+[2020-03-04 16:51:25,570] sopel.bot            INFO     - Plugin loaded: rand
+[2020-03-04 16:51:25,580] sopel.bot            INFO     - Plugin loaded: help
+[2020-03-04 16:51:25,582] sopel.bot            INFO     - Plugin loaded: uptime
+[2020-03-04 16:51:25,586] sopel.bot            INFO     - Plugin loaded: version
+[2020-03-04 16:51:25,594] sopel.bot            INFO     - Plugin loaded: lmgtfy
+[2020-03-04 16:51:25,596] sopel.bot            INFO     - Plugin loaded: find
+[2020-03-04 16:51:25,635] sopel.bot            INFO     - Plugin loaded: clock
+[2020-03-04 16:51:25,673] sopel.bot            INFO     - Plugin loaded: emoticons
+[2020-03-04 16:51:25,681] sopel.bot            INFO     - Plugin loaded: wikipedia
+[2020-03-04 16:51:25,687] sopel.bot            INFO     - Plugin loaded: choose
+[2020-03-04 16:51:25,689] sopel.bot            INFO     - Plugin loaded: ping
+[2020-03-04 16:51:25,693] sopel.bot            INFO     - Plugin loaded: calc
+[2020-03-04 16:51:25,696] sopel.bot            INFO     - Plugin loaded: seen
+[2020-03-04 16:51:25,703] sopel.bot            INFO     - Plugin loaded: currency
+[2020-03-04 16:51:25,727] sopel.bot            INFO     - Plugin loaded: meetbot
+[2020-03-04 16:51:25,730] sopel.bot            INFO     - Plugin loaded: url
+[2020-03-04 16:51:25,743] sopel.bot            INFO     - Plugin loaded: ip
+[2020-03-04 16:51:25,746] sopel.bot            INFO     - Plugin loaded: py
+[2020-03-04 16:51:25,749] sopel.bot            INFO     - Plugin loaded: invite
+[2020-03-04 16:51:25,753] sopel.bot            INFO     - Plugin loaded: isup
+[2020-03-04 16:51:25,754] sopel.bot            INFO     - Plugin loaded: instagram
+[2020-03-04 16:51:25,763] sopel.bot            INFO     - Plugin loaded: tell
+[2020-03-04 16:51:25,764] sopel.bot            ERROR    - Error in pointBot setup: nothing to repeat at position 0
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/sopel/bot.py", line 214, in setup_plugins
+    plugin.register(self)
+  File "/usr/local/lib/python3.6/dist-packages/sopel/plugins/handlers.py", line 261, in register
+    relevant_parts = loader.clean_module(self._module, bot.config)
+  File "/usr/local/lib/python3.6/dist-packages/sopel/loader.py", line 164, in clean_module
+    clean_callable(obj, config)
+  File "/usr/local/lib/python3.6/dist-packages/sopel/loader.py", line 77, in clean_callable
+    func.rule = [compile_rule(nick, rule, alias_nicks) for rule in func.rule]
+  File "/usr/local/lib/python3.6/dist-packages/sopel/loader.py", line 77, in <listcomp>
+    func.rule = [compile_rule(nick, rule, alias_nicks) for rule in func.rule]
+  File "/usr/local/lib/python3.6/dist-packages/sopel/tools/__init__.py", line 90, in compile_rule
+    return re.compile(pattern, flags)
+  File "/usr/lib/python3.6/re.py", line 233, in compile
+    return _compile(pattern, flags)
+  File "/usr/lib/python3.6/re.py", line 301, in _compile
+    p = sre_compile.compile(pattern, flags)
+  File "/usr/lib/python3.6/sre_compile.py", line 562, in compile
+    p = sre_parse.parse(p, flags)
+  File "/usr/lib/python3.6/sre_parse.py", line 855, in parse
+    p = _parse_sub(source, pattern, flags & SRE_FLAG_VERBOSE, 0)
+  File "/usr/lib/python3.6/sre_parse.py", line 416, in _parse_sub
+    not nested and not items))
+  File "/usr/lib/python3.6/sre_parse.py", line 616, in _parse
+    source.tell() - here + len(this))
+sre_constants.error: nothing to repeat at position 0
+[2020-03-04 16:51:25,798] sopel.bot            INFO     - Plugin loaded: coretasks
+[2020-03-04 16:51:25,798] sopel.bot            INFO     - Registered 42 plugins, 1 failed, 0 disabled
+[2020-03-04 16:51:25,799] sopel.irc.backends   INFO     - Connecting to 10.4.163.34:6667...
+[2020-03-04 16:51:25,801] sopel.irc.backends   INFO     - Connection accepted by the server...
+[2020-03-04 16:51:25,802] sopel.irc            INFO     - Connected.
+[2020-03-04 16:51:26,810] sopel.coretasks      INFO     - Joining 1 channels (with JOIN throttle OFF); this may take a moment.
+[2020-03-04 16:51:26,930] sopel.coretasks      INFO     - Channel joined: #point
+[2020-03-04 16:51:28,344] sopel.cli.run        WARNING  - Got quit signal, shutting down.
+[2020-03-04 16:51:28,348] sopel.irc            ERROR    - ERROR received from server: Closing link: (sopel@jlogerqubox.adtran.com) [Quit: Closing]
+[2020-03-04 16:51:28,805] sopel.irc.backends   INFO     - Connection closed...
+[2020-03-04 16:51:28,805] sopel.bot            INFO     - Stopping the Job Scheduler.
+[2020-03-04 16:51:29,803] sopel.bot            INFO     - Job Scheduler stopped.
+[2020-03-04 16:51:29,804] sopel.bot            INFO     - Calling shutdown for 9 plugins.
+[2020-03-04 16:51:29,804] sopel.irc.backends   INFO     - Closed!
+[2020-03-04 16:53:46,211] sopel.bot            INFO     - Loading plugins...
+[2020-03-04 16:53:46,226] sopel.bot            INFO     - Plugin loaded: countdown
+[2020-03-04 16:53:46,244] sopel.bot            INFO     - Plugin loaded: dice
+[2020-03-04 16:53:46,251] sopel.bot            INFO     - Plugin loaded: pronouns
+[2020-03-04 16:53:46,363] sopel.bot            INFO     - Plugin loaded: safety
+[2020-03-04 16:53:46,376] sopel.bot            INFO     - Plugin loaded: units
+[2020-03-04 16:53:46,386] sopel.bot            INFO     - Plugin loaded: remind
+[2020-03-04 16:53:46,389] sopel.bot            INFO     - Plugin loaded: tld
+[2020-03-04 16:53:46,395] sopel.bot            INFO     - Plugin loaded: wiktionary
+[2020-03-04 16:53:46,403] sopel.bot            INFO     - Plugin loaded: xkcd
+[2020-03-04 16:53:46,457] sopel.bot            INFO     - Plugin loaded: reddit
+[2020-03-04 16:53:46,470] sopel.bot            INFO     - Plugin loaded: reload
+[2020-03-04 16:53:46,474] sopel.bot            INFO     - Plugin loaded: etymology
+[2020-03-04 16:53:46,488] sopel.bot            INFO     - Plugin loaded: search
+[2020-03-04 16:53:46,502] sopel.bot            INFO     - Plugin loaded: translate
+[2020-03-04 16:53:46,505] sopel.bot            INFO     - Plugin loaded: unicode_info
+[2020-03-04 16:53:46,536] sopel.bot            INFO     - Plugin loaded: adminchannel
+[2020-03-04 16:53:46,537] sopel.bot            INFO     - Plugin loaded: find_updates
+[2020-03-04 16:53:46,563] sopel.bot            INFO     - Plugin loaded: admin
+[2020-03-04 16:53:46,565] sopel.bot            INFO     - Plugin loaded: bugzilla
+[2020-03-04 16:53:46,568] sopel.bot            INFO     - Plugin loaded: announce
+[2020-03-04 16:53:46,570] sopel.bot            INFO     - Plugin loaded: rand
+[2020-03-04 16:53:46,577] sopel.bot            INFO     - Plugin loaded: help
+[2020-03-04 16:53:46,580] sopel.bot            INFO     - Plugin loaded: uptime
+[2020-03-04 16:53:46,583] sopel.bot            INFO     - Plugin loaded: version
+[2020-03-04 16:53:46,591] sopel.bot            INFO     - Plugin loaded: lmgtfy
+[2020-03-04 16:53:46,594] sopel.bot            INFO     - Plugin loaded: find
+[2020-03-04 16:53:46,636] sopel.bot            INFO     - Plugin loaded: clock
+[2020-03-04 16:53:46,693] sopel.bot            INFO     - Plugin loaded: emoticons
+[2020-03-04 16:53:46,704] sopel.bot            INFO     - Plugin loaded: wikipedia
+[2020-03-04 16:53:46,711] sopel.bot            INFO     - Plugin loaded: choose
+[2020-03-04 16:53:46,713] sopel.bot            INFO     - Plugin loaded: ping
+[2020-03-04 16:53:46,718] sopel.bot            INFO     - Plugin loaded: calc
+[2020-03-04 16:53:46,721] sopel.bot            INFO     - Plugin loaded: seen
+[2020-03-04 16:53:46,729] sopel.bot            INFO     - Plugin loaded: currency
+[2020-03-04 16:53:46,754] sopel.bot            INFO     - Plugin loaded: meetbot
+[2020-03-04 16:53:46,756] sopel.bot            INFO     - Plugin loaded: url
+[2020-03-04 16:53:46,771] sopel.bot            INFO     - Plugin loaded: ip
+[2020-03-04 16:53:46,774] sopel.bot            INFO     - Plugin loaded: py
+[2020-03-04 16:53:46,776] sopel.bot            INFO     - Plugin loaded: invite
+[2020-03-04 16:53:46,782] sopel.bot            INFO     - Plugin loaded: isup
+[2020-03-04 16:53:46,783] sopel.bot            INFO     - Plugin loaded: instagram
+[2020-03-04 16:53:46,792] sopel.bot            INFO     - Plugin loaded: tell
+[2020-03-04 16:53:46,794] sopel.bot            ERROR    - Error in pointBot setup: nothing to repeat at position 0
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/sopel/bot.py", line 214, in setup_plugins
+    plugin.register(self)
+  File "/usr/local/lib/python3.6/dist-packages/sopel/plugins/handlers.py", line 261, in register
+    relevant_parts = loader.clean_module(self._module, bot.config)
+  File "/usr/local/lib/python3.6/dist-packages/sopel/loader.py", line 164, in clean_module
+    clean_callable(obj, config)
+  File "/usr/local/lib/python3.6/dist-packages/sopel/loader.py", line 77, in clean_callable
+    func.rule = [compile_rule(nick, rule, alias_nicks) for rule in func.rule]
+  File "/usr/local/lib/python3.6/dist-packages/sopel/loader.py", line 77, in <listcomp>
+    func.rule = [compile_rule(nick, rule, alias_nicks) for rule in func.rule]
+  File "/usr/local/lib/python3.6/dist-packages/sopel/tools/__init__.py", line 90, in compile_rule
+    return re.compile(pattern, flags)
+  File "/usr/lib/python3.6/re.py", line 233, in compile
+    return _compile(pattern, flags)
+  File "/usr/lib/python3.6/re.py", line 301, in _compile
+    p = sre_compile.compile(pattern, flags)
+  File "/usr/lib/python3.6/sre_compile.py", line 562, in compile
+    p = sre_parse.parse(p, flags)
+  File "/usr/lib/python3.6/sre_parse.py", line 855, in parse
+    p = _parse_sub(source, pattern, flags & SRE_FLAG_VERBOSE, 0)
+  File "/usr/lib/python3.6/sre_parse.py", line 416, in _parse_sub
+    not nested and not items))
+  File "/usr/lib/python3.6/sre_parse.py", line 616, in _parse
+    source.tell() - here + len(this))
+sre_constants.error: nothing to repeat at position 0
+[2020-03-04 16:53:46,806] sopel.bot            INFO     - Plugin loaded: coretasks
+[2020-03-04 16:53:46,806] sopel.bot            INFO     - Registered 42 plugins, 1 failed, 0 disabled
+[2020-03-04 16:53:46,807] sopel.irc.backends   INFO     - Connecting to 10.4.163.34:6667...
+[2020-03-04 16:53:46,810] sopel.irc.backends   INFO     - Connection accepted by the server...
+[2020-03-04 16:53:46,811] sopel.irc            INFO     - Connected.
+[2020-03-04 16:53:47,819] sopel.coretasks      INFO     - Joining 1 channels (with JOIN throttle OFF); this may take a moment.
+[2020-03-04 16:53:47,938] sopel.coretasks      INFO     - Channel joined: #point
+[2020-03-04 16:53:49,064] sopel.cli.run        WARNING  - Got quit signal, shutting down.
+[2020-03-04 16:53:49,067] sopel.irc            ERROR    - ERROR received from server: Closing link: (sopel@jlogerqubox.adtran.com) [Quit: Closing]
+[2020-03-04 16:53:49,736] sopel.cli.run        WARNING  - Got quit signal, shutting down.
+[2020-03-04 16:53:49,816] sopel.irc.backends   INFO     - Connection closed...
+[2020-03-04 16:53:49,816] sopel.bot            INFO     - Stopping the Job Scheduler.
+[2020-03-04 16:53:50,760] sopel.cli.run        WARNING  - Got quit signal, shutting down.
+[2020-03-04 16:53:50,760] sopel.irc.backends   INFO     - Connection closed...
+[2020-03-04 16:53:50,761] sopel.bot            INFO     - Stopping the Job Scheduler.
+[2020-03-04 16:53:50,815] sopel.bot            INFO     - Job Scheduler stopped.
+[2020-03-04 16:53:50,815] sopel.bot            INFO     - Calling shutdown for 9 plugins.
+[2020-03-04 16:53:50,816] sopel.irc.backends   INFO     - Closed!
+[2020-03-04 16:53:50,816] sopel.bot            INFO     - Job Scheduler stopped.
+[2020-03-04 16:53:50,816] sopel.bot            INFO     - Calling shutdown for 0 plugins.
+[2020-03-04 16:53:50,816] sopel.irc.backends   INFO     - Closed!
+[2020-03-04 16:56:39,216] sopel.bot            INFO     - Loading plugins...
+[2020-03-04 16:56:39,228] sopel.bot            INFO     - Plugin loaded: countdown
+[2020-03-04 16:56:39,240] sopel.bot            INFO     - Plugin loaded: dice
+[2020-03-04 16:56:39,245] sopel.bot            INFO     - Plugin loaded: pronouns
+[2020-03-04 16:56:39,356] sopel.bot            INFO     - Plugin loaded: safety
+[2020-03-04 16:56:39,370] sopel.bot            INFO     - Plugin loaded: units
+[2020-03-04 16:56:39,381] sopel.bot            INFO     - Plugin loaded: remind
+[2020-03-04 16:56:39,384] sopel.bot            INFO     - Plugin loaded: tld
+[2020-03-04 16:56:39,390] sopel.bot            INFO     - Plugin loaded: wiktionary
+[2020-03-04 16:56:39,400] sopel.bot            INFO     - Plugin loaded: xkcd
+[2020-03-04 16:56:39,452] sopel.bot            INFO     - Plugin loaded: reddit
+[2020-03-04 16:56:39,465] sopel.bot            INFO     - Plugin loaded: reload
+[2020-03-04 16:56:39,468] sopel.bot            INFO     - Plugin loaded: etymology
+[2020-03-04 16:56:39,479] sopel.bot            INFO     - Plugin loaded: search
+[2020-03-04 16:56:39,492] sopel.bot            INFO     - Plugin loaded: translate
+[2020-03-04 16:56:39,495] sopel.bot            INFO     - Plugin loaded: unicode_info
+[2020-03-04 16:56:39,525] sopel.bot            INFO     - Plugin loaded: adminchannel
+[2020-03-04 16:56:39,526] sopel.bot            INFO     - Plugin loaded: find_updates
+[2020-03-04 16:56:39,554] sopel.bot            INFO     - Plugin loaded: admin
+[2020-03-04 16:56:39,556] sopel.bot            INFO     - Plugin loaded: bugzilla
+[2020-03-04 16:56:39,559] sopel.bot            INFO     - Plugin loaded: announce
+[2020-03-04 16:56:39,562] sopel.bot            INFO     - Plugin loaded: rand
+[2020-03-04 16:56:39,569] sopel.bot            INFO     - Plugin loaded: help
+[2020-03-04 16:56:39,572] sopel.bot            INFO     - Plugin loaded: uptime
+[2020-03-04 16:56:39,576] sopel.bot            INFO     - Plugin loaded: version
+[2020-03-04 16:56:39,584] sopel.bot            INFO     - Plugin loaded: lmgtfy
+[2020-03-04 16:56:39,587] sopel.bot            INFO     - Plugin loaded: find
+[2020-03-04 16:56:39,626] sopel.bot            INFO     - Plugin loaded: clock
+[2020-03-04 16:56:39,669] sopel.bot            INFO     - Plugin loaded: emoticons
+[2020-03-04 16:56:39,677] sopel.bot            INFO     - Plugin loaded: wikipedia
+[2020-03-04 16:56:39,683] sopel.bot            INFO     - Plugin loaded: choose
+[2020-03-04 16:56:39,686] sopel.bot            INFO     - Plugin loaded: ping
+[2020-03-04 16:56:39,690] sopel.bot            INFO     - Plugin loaded: calc
+[2020-03-04 16:56:39,694] sopel.bot            INFO     - Plugin loaded: seen
+[2020-03-04 16:56:39,702] sopel.bot            INFO     - Plugin loaded: currency
+[2020-03-04 16:56:39,727] sopel.bot            INFO     - Plugin loaded: meetbot
+[2020-03-04 16:56:39,730] sopel.bot            INFO     - Plugin loaded: url
+[2020-03-04 16:56:39,746] sopel.bot            INFO     - Plugin loaded: ip
+[2020-03-04 16:56:39,750] sopel.bot            INFO     - Plugin loaded: py
+[2020-03-04 16:56:39,753] sopel.bot            INFO     - Plugin loaded: invite
+[2020-03-04 16:56:39,757] sopel.bot            INFO     - Plugin loaded: isup
+[2020-03-04 16:56:39,759] sopel.bot            INFO     - Plugin loaded: instagram
+[2020-03-04 16:56:39,768] sopel.bot            INFO     - Plugin loaded: tell
+[2020-03-04 16:56:39,771] sopel.bot            INFO     - Plugin loaded: pointBot
+[2020-03-04 16:56:39,780] sopel.bot            INFO     - Plugin loaded: coretasks
+[2020-03-04 16:56:39,781] sopel.bot            INFO     - Registered 43 plugins, 0 failed, 0 disabled
+[2020-03-04 16:56:39,783] sopel.irc.backends   INFO     - Connecting to 10.4.163.34:6667...
+[2020-03-04 16:56:39,785] sopel.irc.backends   INFO     - Connection accepted by the server...
+[2020-03-04 16:56:39,787] sopel.irc            INFO     - Connected.
+[2020-03-04 16:56:40,803] sopel.coretasks      INFO     - Joining 1 channels (with JOIN throttle OFF); this may take a moment.
+[2020-03-04 16:56:40,928] sopel.coretasks      INFO     - Channel joined: #point
+[2020-03-04 16:56:50,748] sopel.bot            ERROR    - Unexpected error (no such group) from JSON at 2020-03-04 16:56:50.748526. Message was: +1
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/sopel/bot.py", line 590, in call
+    exit_code = func(sopel, trigger)
+  File "/home/jlogerqu/git/irc/sopel/plugins/pointBot.py", line 5, in addGPoints
+    amount = trigger.group(1)
+IndexError: no such group
+[2020-03-04 16:57:16,300] sopel.bot            ERROR    - Unexpected error (no such group) from JSON at 2020-03-04 16:57:16.300670. Message was: +2
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/sopel/bot.py", line 590, in call
+    exit_code = func(sopel, trigger)
+  File "/home/jlogerqu/git/irc/sopel/plugins/pointBot.py", line 5, in addGPoints
+    amount = trigger.group(1)
+IndexError: no such group
+[2020-03-04 16:57:22,299] sopel.bot            ERROR    - Unexpected error (no such group) from JSON at 2020-03-04 16:57:22.299509. Message was: +3
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/sopel/bot.py", line 590, in call
+    exit_code = func(sopel, trigger)
+  File "/home/jlogerqu/git/irc/sopel/plugins/pointBot.py", line 5, in addGPoints
+    amount = trigger.group(1)
+IndexError: no such group
+[2020-03-04 16:58:13,275] sopel.cli.run        WARNING  - Got quit signal, shutting down.
+[2020-03-04 16:58:13,278] sopel.irc            ERROR    - ERROR received from server: Closing link: (sopel@jlogerqubox.adtran.com) [Quit: Closing]
+[2020-03-04 16:58:14,101] sopel.irc.backends   INFO     - Connection closed...
+[2020-03-04 16:58:14,101] sopel.bot            INFO     - Stopping the Job Scheduler.
+[2020-03-04 16:58:15,109] sopel.bot            INFO     - Job Scheduler stopped.
+[2020-03-04 16:58:15,109] sopel.bot            INFO     - Calling shutdown for 9 plugins.
+[2020-03-04 16:58:15,109] sopel.irc.backends   INFO     - Closed!
+[2020-03-04 16:58:17,196] sopel.bot            INFO     - Loading plugins...
+[2020-03-04 16:58:17,207] sopel.bot            INFO     - Plugin loaded: countdown
+[2020-03-04 16:58:17,215] sopel.bot            INFO     - Plugin loaded: dice
+[2020-03-04 16:58:17,220] sopel.bot            INFO     - Plugin loaded: pronouns
+[2020-03-04 16:58:17,337] sopel.bot            INFO     - Plugin loaded: safety
+[2020-03-04 16:58:17,350] sopel.bot            INFO     - Plugin loaded: units
+[2020-03-04 16:58:17,360] sopel.bot            INFO     - Plugin loaded: remind
+[2020-03-04 16:58:17,364] sopel.bot            INFO     - Plugin loaded: tld
+[2020-03-04 16:58:17,371] sopel.bot            INFO     - Plugin loaded: wiktionary
+[2020-03-04 16:58:17,379] sopel.bot            INFO     - Plugin loaded: xkcd
+[2020-03-04 16:58:17,433] sopel.bot            INFO     - Plugin loaded: reddit
+[2020-03-04 16:58:17,445] sopel.bot            INFO     - Plugin loaded: reload
+[2020-03-04 16:58:17,448] sopel.bot            INFO     - Plugin loaded: etymology
+[2020-03-04 16:58:17,460] sopel.bot            INFO     - Plugin loaded: search
+[2020-03-04 16:58:17,471] sopel.bot            INFO     - Plugin loaded: translate
+[2020-03-04 16:58:17,473] sopel.bot            INFO     - Plugin loaded: unicode_info
+[2020-03-04 16:58:17,501] sopel.bot            INFO     - Plugin loaded: adminchannel
+[2020-03-04 16:58:17,502] sopel.bot            INFO     - Plugin loaded: find_updates
+[2020-03-04 16:58:17,529] sopel.bot            INFO     - Plugin loaded: admin
+[2020-03-04 16:58:17,532] sopel.bot            INFO     - Plugin loaded: bugzilla
+[2020-03-04 16:58:17,534] sopel.bot            INFO     - Plugin loaded: announce
+[2020-03-04 16:58:17,536] sopel.bot            INFO     - Plugin loaded: rand
+[2020-03-04 16:58:17,543] sopel.bot            INFO     - Plugin loaded: help
+[2020-03-04 16:58:17,545] sopel.bot            INFO     - Plugin loaded: uptime
+[2020-03-04 16:58:17,549] sopel.bot            INFO     - Plugin loaded: version
+[2020-03-04 16:58:17,557] sopel.bot            INFO     - Plugin loaded: lmgtfy
+[2020-03-04 16:58:17,560] sopel.bot            INFO     - Plugin loaded: find
+[2020-03-04 16:58:17,602] sopel.bot            INFO     - Plugin loaded: clock
+[2020-03-04 16:58:17,656] sopel.bot            INFO     - Plugin loaded: emoticons
+[2020-03-04 16:58:17,663] sopel.bot            INFO     - Plugin loaded: wikipedia
+[2020-03-04 16:58:17,669] sopel.bot            INFO     - Plugin loaded: choose
+[2020-03-04 16:58:17,670] sopel.bot            INFO     - Plugin loaded: ping
+[2020-03-04 16:58:17,674] sopel.bot            INFO     - Plugin loaded: calc
+[2020-03-04 16:58:17,677] sopel.bot            INFO     - Plugin loaded: seen
+[2020-03-04 16:58:17,684] sopel.bot            INFO     - Plugin loaded: currency
+[2020-03-04 16:58:17,707] sopel.bot            INFO     - Plugin loaded: meetbot
+[2020-03-04 16:58:17,710] sopel.bot            INFO     - Plugin loaded: url
+[2020-03-04 16:58:17,724] sopel.bot            INFO     - Plugin loaded: ip
+[2020-03-04 16:58:17,726] sopel.bot            INFO     - Plugin loaded: py
+[2020-03-04 16:58:17,729] sopel.bot            INFO     - Plugin loaded: invite
+[2020-03-04 16:58:17,734] sopel.bot            INFO     - Plugin loaded: isup
+[2020-03-04 16:58:17,735] sopel.bot            INFO     - Plugin loaded: instagram
+[2020-03-04 16:58:17,744] sopel.bot            INFO     - Plugin loaded: tell
+[2020-03-04 16:58:17,746] sopel.bot            INFO     - Plugin loaded: pointBot
+[2020-03-04 16:58:17,755] sopel.bot            INFO     - Plugin loaded: coretasks
+[2020-03-04 16:58:17,755] sopel.bot            INFO     - Registered 43 plugins, 0 failed, 0 disabled
+[2020-03-04 16:58:17,756] sopel.irc.backends   INFO     - Connecting to 10.4.163.34:6667...
+[2020-03-04 16:58:17,758] sopel.irc.backends   INFO     - Connection accepted by the server...
+[2020-03-04 16:58:17,759] sopel.irc            INFO     - Connected.
+[2020-03-04 16:58:18,768] sopel.coretasks      INFO     - Joining 1 channels (with JOIN throttle OFF); this may take a moment.
+[2020-03-04 16:58:18,900] sopel.coretasks      INFO     - Channel joined: #point
+[2020-03-04 16:58:25,003] sopel.bot            ERROR    - Unexpected error (%d format: a number is required, not str) from JSON at 2020-03-04 16:58:25.003668. Message was: +3 jason
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/sopel/bot.py", line 590, in call
+    exit_code = func(sopel, trigger)
+  File "/home/jlogerqu/git/irc/sopel/plugins/pointBot.py", line 7, in addGPoints
+    bot.reply('added %d points to %s' % (amount, words[0]))
+TypeError: %d format: a number is required, not str
+[2020-03-04 16:59:24,683] sopel.bot            ERROR    - Unexpected error (%d format: a number is required, not str) from JSON at 2020-03-04 16:59:24.683864. Message was: +3 jason
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/sopel/bot.py", line 590, in call
+    exit_code = func(sopel, trigger)
+  File "/home/jlogerqu/git/irc/sopel/plugins/pointBot.py", line 7, in addGPoints
+    bot.reply('added %d points to %s' % (amount, words[0]))
+TypeError: %d format: a number is required, not str
+[2020-03-04 16:59:43,915] sopel.cli.run        WARNING  - Got restart signal, shutting down and restarting.
+[2020-03-04 16:59:43,917] sopel.irc            ERROR    - ERROR received from server: Closing link: (sopel@jlogerqubox.adtran.com) [Quit: Restarting]
+[2020-03-04 16:59:44,153] sopel.irc.backends   INFO     - Connection closed...
+[2020-03-04 16:59:44,153] sopel.bot            INFO     - Stopping the Job Scheduler.
+[2020-03-04 16:59:44,960] sopel.bot            INFO     - Job Scheduler stopped.
+[2020-03-04 16:59:44,961] sopel.bot            INFO     - Calling shutdown for 9 plugins.
+[2020-03-04 16:59:44,961] sopel.irc.backends   INFO     - Closed!
+[2020-03-04 16:59:45,530] sopel.bot            INFO     - Loading plugins...
+[2020-03-04 16:59:45,541] sopel.bot            INFO     - Plugin loaded: countdown
+[2020-03-04 16:59:45,549] sopel.bot            INFO     - Plugin loaded: dice
+[2020-03-04 16:59:45,554] sopel.bot            INFO     - Plugin loaded: pronouns
+[2020-03-04 16:59:45,662] sopel.bot            INFO     - Plugin loaded: safety
+[2020-03-04 16:59:45,675] sopel.bot            INFO     - Plugin loaded: units
+[2020-03-04 16:59:45,685] sopel.bot            INFO     - Plugin loaded: remind
+[2020-03-04 16:59:45,688] sopel.bot            INFO     - Plugin loaded: tld
+[2020-03-04 16:59:45,694] sopel.bot            INFO     - Plugin loaded: wiktionary
+[2020-03-04 16:59:45,702] sopel.bot            INFO     - Plugin loaded: xkcd
+[2020-03-04 16:59:45,752] sopel.bot            INFO     - Plugin loaded: reddit
+[2020-03-04 16:59:45,764] sopel.bot            INFO     - Plugin loaded: reload
+[2020-03-04 16:59:45,768] sopel.bot            INFO     - Plugin loaded: etymology
+[2020-03-04 16:59:45,779] sopel.bot            INFO     - Plugin loaded: search
+[2020-03-04 16:59:45,789] sopel.bot            INFO     - Plugin loaded: translate
+[2020-03-04 16:59:45,791] sopel.bot            INFO     - Plugin loaded: unicode_info
+[2020-03-04 16:59:45,817] sopel.bot            INFO     - Plugin loaded: adminchannel
+[2020-03-04 16:59:45,818] sopel.bot            INFO     - Plugin loaded: find_updates
+[2020-03-04 16:59:45,843] sopel.bot            INFO     - Plugin loaded: admin
+[2020-03-04 16:59:45,845] sopel.bot            INFO     - Plugin loaded: bugzilla
+[2020-03-04 16:59:45,847] sopel.bot            INFO     - Plugin loaded: announce
+[2020-03-04 16:59:45,849] sopel.bot            INFO     - Plugin loaded: rand
+[2020-03-04 16:59:45,856] sopel.bot            INFO     - Plugin loaded: help
+[2020-03-04 16:59:45,858] sopel.bot            INFO     - Plugin loaded: uptime
+[2020-03-04 16:59:45,862] sopel.bot            INFO     - Plugin loaded: version
+[2020-03-04 16:59:45,870] sopel.bot            INFO     - Plugin loaded: lmgtfy
+[2020-03-04 16:59:45,872] sopel.bot            INFO     - Plugin loaded: find
+[2020-03-04 16:59:45,909] sopel.bot            INFO     - Plugin loaded: clock
+[2020-03-04 16:59:45,946] sopel.bot            INFO     - Plugin loaded: emoticons
+[2020-03-04 16:59:45,953] sopel.bot            INFO     - Plugin loaded: wikipedia
+[2020-03-04 16:59:45,961] sopel.bot            INFO     - Plugin loaded: choose
+[2020-03-04 16:59:45,964] sopel.bot            INFO     - Plugin loaded: ping
+[2020-03-04 16:59:45,971] sopel.bot            INFO     - Plugin loaded: calc
+[2020-03-04 16:59:45,975] sopel.bot            INFO     - Plugin loaded: seen
+[2020-03-04 16:59:45,983] sopel.bot            INFO     - Plugin loaded: currency
+[2020-03-04 16:59:46,007] sopel.bot            INFO     - Plugin loaded: meetbot
+[2020-03-04 16:59:46,010] sopel.bot            INFO     - Plugin loaded: url
+[2020-03-04 16:59:46,023] sopel.bot            INFO     - Plugin loaded: ip
+[2020-03-04 16:59:46,026] sopel.bot            INFO     - Plugin loaded: py
+[2020-03-04 16:59:46,028] sopel.bot            INFO     - Plugin loaded: invite
+[2020-03-04 16:59:46,033] sopel.bot            INFO     - Plugin loaded: isup
+[2020-03-04 16:59:46,034] sopel.bot            INFO     - Plugin loaded: instagram
+[2020-03-04 16:59:46,042] sopel.bot            INFO     - Plugin loaded: tell
+[2020-03-04 16:59:46,044] sopel.bot            INFO     - Plugin loaded: pointBot
+[2020-03-04 16:59:46,053] sopel.bot            INFO     - Plugin loaded: coretasks
+[2020-03-04 16:59:46,053] sopel.bot            INFO     - Registered 43 plugins, 0 failed, 0 disabled
+[2020-03-04 16:59:46,054] sopel.irc.backends   INFO     - Connecting to 10.4.163.34:6667...
+[2020-03-04 16:59:46,056] sopel.irc.backends   INFO     - Connection accepted by the server...
+[2020-03-04 16:59:46,056] sopel.irc            INFO     - Connected.
+[2020-03-04 16:59:47,064] sopel.coretasks      INFO     - Joining 1 channels (with JOIN throttle OFF); this may take a moment.
+[2020-03-04 16:59:47,191] sopel.coretasks      INFO     - Channel joined: #point
+[2020-03-04 17:00:53,398] sopel.cli.run        WARNING  - Got restart signal, shutting down and restarting.
+[2020-03-04 17:00:53,401] sopel.irc            ERROR    - ERROR received from server: Closing link: (sopel@jlogerqubox.adtran.com) [Quit: Restarting]
+[2020-03-04 17:00:54,170] sopel.irc.backends   INFO     - Connection closed...
+[2020-03-04 17:00:54,170] sopel.bot            INFO     - Stopping the Job Scheduler.
+[2020-03-04 17:00:55,169] sopel.bot            INFO     - Job Scheduler stopped.
+[2020-03-04 17:00:55,170] sopel.bot            INFO     - Calling shutdown for 9 plugins.
+[2020-03-04 17:00:55,170] sopel.irc.backends   INFO     - Closed!
+[2020-03-04 17:01:24,818] sopel.bot            INFO     - Loading plugins...
+[2020-03-04 17:01:24,830] sopel.bot            INFO     - Plugin loaded: countdown
+[2020-03-04 17:01:24,839] sopel.bot            INFO     - Plugin loaded: dice
+[2020-03-04 17:01:24,845] sopel.bot            INFO     - Plugin loaded: pronouns
+[2020-03-04 17:01:24,953] sopel.bot            INFO     - Plugin loaded: safety
+[2020-03-04 17:01:24,965] sopel.bot            INFO     - Plugin loaded: units
+[2020-03-04 17:01:24,975] sopel.bot            INFO     - Plugin loaded: remind
+[2020-03-04 17:01:24,978] sopel.bot            INFO     - Plugin loaded: tld
+[2020-03-04 17:01:24,984] sopel.bot            INFO     - Plugin loaded: wiktionary
+[2020-03-04 17:01:24,992] sopel.bot            INFO     - Plugin loaded: xkcd
+[2020-03-04 17:01:25,045] sopel.bot            INFO     - Plugin loaded: reddit
+[2020-03-04 17:01:25,057] sopel.bot            INFO     - Plugin loaded: reload
+[2020-03-04 17:01:25,060] sopel.bot            INFO     - Plugin loaded: etymology
+[2020-03-04 17:01:25,071] sopel.bot            INFO     - Plugin loaded: search
+[2020-03-04 17:01:25,081] sopel.bot            INFO     - Plugin loaded: translate
+[2020-03-04 17:01:25,083] sopel.bot            INFO     - Plugin loaded: unicode_info
+[2020-03-04 17:01:25,112] sopel.bot            INFO     - Plugin loaded: adminchannel
+[2020-03-04 17:01:25,113] sopel.bot            INFO     - Plugin loaded: find_updates
+[2020-03-04 17:01:25,138] sopel.bot            INFO     - Plugin loaded: admin
+[2020-03-04 17:01:25,140] sopel.bot            INFO     - Plugin loaded: bugzilla
+[2020-03-04 17:01:25,142] sopel.bot            INFO     - Plugin loaded: announce
+[2020-03-04 17:01:25,145] sopel.bot            INFO     - Plugin loaded: rand
+[2020-03-04 17:01:25,151] sopel.bot            INFO     - Plugin loaded: help
+[2020-03-04 17:01:25,154] sopel.bot            INFO     - Plugin loaded: uptime
+[2020-03-04 17:01:25,157] sopel.bot            INFO     - Plugin loaded: version
+[2020-03-04 17:01:25,165] sopel.bot            INFO     - Plugin loaded: lmgtfy
+[2020-03-04 17:01:25,167] sopel.bot            INFO     - Plugin loaded: find
+[2020-03-04 17:01:25,205] sopel.bot            INFO     - Plugin loaded: clock
+[2020-03-04 17:01:25,249] sopel.bot            INFO     - Plugin loaded: emoticons
+[2020-03-04 17:01:25,255] sopel.bot            INFO     - Plugin loaded: wikipedia
+[2020-03-04 17:01:25,261] sopel.bot            INFO     - Plugin loaded: choose
+[2020-03-04 17:01:25,262] sopel.bot            INFO     - Plugin loaded: ping
+[2020-03-04 17:01:25,266] sopel.bot            INFO     - Plugin loaded: calc
+[2020-03-04 17:01:25,269] sopel.bot            INFO     - Plugin loaded: seen
+[2020-03-04 17:01:25,276] sopel.bot            INFO     - Plugin loaded: currency
+[2020-03-04 17:01:25,299] sopel.bot            INFO     - Plugin loaded: meetbot
+[2020-03-04 17:01:25,301] sopel.bot            INFO     - Plugin loaded: url
+[2020-03-04 17:01:25,315] sopel.bot            INFO     - Plugin loaded: ip
+[2020-03-04 17:01:25,317] sopel.bot            INFO     - Plugin loaded: py
+[2020-03-04 17:01:25,320] sopel.bot            INFO     - Plugin loaded: invite
+[2020-03-04 17:01:25,324] sopel.bot            INFO     - Plugin loaded: isup
+[2020-03-04 17:01:25,326] sopel.bot            INFO     - Plugin loaded: instagram
+[2020-03-04 17:01:25,334] sopel.bot            INFO     - Plugin loaded: tell
+[2020-03-04 17:01:25,336] sopel.bot            INFO     - Plugin loaded: pointBot
+[2020-03-04 17:01:25,345] sopel.bot            INFO     - Plugin loaded: coretasks
+[2020-03-04 17:01:25,345] sopel.bot            INFO     - Registered 43 plugins, 0 failed, 0 disabled
+[2020-03-04 17:01:25,346] sopel.irc.backends   INFO     - Connecting to 10.4.163.34:6667...
+[2020-03-04 17:01:25,348] sopel.irc.backends   INFO     - Connection accepted by the server...
+[2020-03-04 17:01:25,349] sopel.irc            INFO     - Connected.
+[2020-03-04 17:01:26,357] sopel.coretasks      INFO     - Joining 1 channels (with JOIN throttle OFF); this may take a moment.
+[2020-03-04 17:01:26,473] sopel.coretasks      INFO     - Channel joined: #point
+[2020-03-04 17:01:44,545] sopel.cli.run        WARNING  - Got restart signal, shutting down and restarting.
+[2020-03-04 17:01:44,547] sopel.irc            ERROR    - ERROR received from server: Closing link: (sopel@jlogerqubox.adtran.com) [Quit: Restarting]
+[2020-03-04 17:01:45,393] sopel.irc.backends   INFO     - Connection closed...
+[2020-03-04 17:01:45,393] sopel.bot            INFO     - Stopping the Job Scheduler.
+[2020-03-04 17:01:45,406] sopel.bot            INFO     - Job Scheduler stopped.
+[2020-03-04 17:01:45,407] sopel.bot            INFO     - Calling shutdown for 9 plugins.
+[2020-03-04 17:01:45,407] sopel.irc.backends   INFO     - Closed!
+[2020-03-04 17:01:45,967] sopel.bot            INFO     - Loading plugins...
+[2020-03-04 17:01:45,978] sopel.bot            INFO     - Plugin loaded: countdown
+[2020-03-04 17:01:45,987] sopel.bot            INFO     - Plugin loaded: dice
+[2020-03-04 17:01:45,993] sopel.bot            INFO     - Plugin loaded: pronouns
+[2020-03-04 17:01:46,105] sopel.bot            INFO     - Plugin loaded: safety
+[2020-03-04 17:01:46,119] sopel.bot            INFO     - Plugin loaded: units
+[2020-03-04 17:01:46,130] sopel.bot            INFO     - Plugin loaded: remind
+[2020-03-04 17:01:46,134] sopel.bot            INFO     - Plugin loaded: tld
+[2020-03-04 17:01:46,141] sopel.bot            INFO     - Plugin loaded: wiktionary
+[2020-03-04 17:01:46,149] sopel.bot            INFO     - Plugin loaded: xkcd
+[2020-03-04 17:01:46,202] sopel.bot            INFO     - Plugin loaded: reddit
+[2020-03-04 17:01:46,213] sopel.bot            INFO     - Plugin loaded: reload
+[2020-03-04 17:01:46,216] sopel.bot            INFO     - Plugin loaded: etymology
+[2020-03-04 17:01:46,229] sopel.bot            INFO     - Plugin loaded: search
+[2020-03-04 17:01:46,242] sopel.bot            INFO     - Plugin loaded: translate
+[2020-03-04 17:01:46,245] sopel.bot            INFO     - Plugin loaded: unicode_info
+[2020-03-04 17:01:46,273] sopel.bot            INFO     - Plugin loaded: adminchannel
+[2020-03-04 17:01:46,274] sopel.bot            INFO     - Plugin loaded: find_updates
+[2020-03-04 17:01:46,300] sopel.bot            INFO     - Plugin loaded: admin
+[2020-03-04 17:01:46,302] sopel.bot            INFO     - Plugin loaded: bugzilla
+[2020-03-04 17:01:46,304] sopel.bot            INFO     - Plugin loaded: announce
+[2020-03-04 17:01:46,307] sopel.bot            INFO     - Plugin loaded: rand
+[2020-03-04 17:01:46,314] sopel.bot            INFO     - Plugin loaded: help
+[2020-03-04 17:01:46,317] sopel.bot            INFO     - Plugin loaded: uptime
+[2020-03-04 17:01:46,321] sopel.bot            INFO     - Plugin loaded: version
+[2020-03-04 17:01:46,329] sopel.bot            INFO     - Plugin loaded: lmgtfy
+[2020-03-04 17:01:46,332] sopel.bot            INFO     - Plugin loaded: find
+[2020-03-04 17:01:46,380] sopel.bot            INFO     - Plugin loaded: clock
+[2020-03-04 17:01:46,428] sopel.bot            INFO     - Plugin loaded: emoticons
+[2020-03-04 17:01:46,435] sopel.bot            INFO     - Plugin loaded: wikipedia
+[2020-03-04 17:01:46,441] sopel.bot            INFO     - Plugin loaded: choose
+[2020-03-04 17:01:46,443] sopel.bot            INFO     - Plugin loaded: ping
+[2020-03-04 17:01:46,449] sopel.bot            INFO     - Plugin loaded: calc
+[2020-03-04 17:01:46,452] sopel.bot            INFO     - Plugin loaded: seen
+[2020-03-04 17:01:46,460] sopel.bot            INFO     - Plugin loaded: currency
+[2020-03-04 17:01:46,484] sopel.bot            INFO     - Plugin loaded: meetbot
+[2020-03-04 17:01:46,487] sopel.bot            INFO     - Plugin loaded: url
+[2020-03-04 17:01:46,501] sopel.bot            INFO     - Plugin loaded: ip
+[2020-03-04 17:01:46,505] sopel.bot            INFO     - Plugin loaded: py
+[2020-03-04 17:01:46,507] sopel.bot            INFO     - Plugin loaded: invite
+[2020-03-04 17:01:46,513] sopel.bot            INFO     - Plugin loaded: isup
+[2020-03-04 17:01:46,515] sopel.bot            INFO     - Plugin loaded: instagram
+[2020-03-04 17:01:46,524] sopel.bot            INFO     - Plugin loaded: tell
+[2020-03-04 17:01:46,525] sopel.bot            INFO     - Plugin loaded: pointBot
+[2020-03-04 17:01:46,535] sopel.bot            INFO     - Plugin loaded: coretasks
+[2020-03-04 17:01:46,535] sopel.bot            INFO     - Registered 43 plugins, 0 failed, 0 disabled
+[2020-03-04 17:01:46,537] sopel.irc.backends   INFO     - Connecting to 10.4.163.34:6667...
+[2020-03-04 17:01:46,539] sopel.irc.backends   INFO     - Connection accepted by the server...
+[2020-03-04 17:01:46,540] sopel.irc            INFO     - Connected.
+[2020-03-04 17:01:47,555] sopel.coretasks      INFO     - Joining 1 channels (with JOIN throttle OFF); this may take a moment.
+[2020-03-04 17:01:47,684] sopel.coretasks      INFO     - Channel joined: #point
+[2020-03-04 17:02:40,924] sopel.cli.run        WARNING  - Got restart signal, shutting down and restarting.
+[2020-03-04 17:02:40,929] sopel.irc            ERROR    - ERROR received from server: Closing link: (sopel@jlogerqubox.adtran.com) [Quit: Restarting]
+[2020-03-04 17:02:41,811] sopel.irc.backends   INFO     - Connection closed...
+[2020-03-04 17:02:41,812] sopel.bot            INFO     - Stopping the Job Scheduler.
+[2020-03-04 17:02:42,812] sopel.bot            INFO     - Job Scheduler stopped.
+[2020-03-04 17:02:42,813] sopel.bot            INFO     - Calling shutdown for 9 plugins.
+[2020-03-04 17:02:42,813] sopel.irc.backends   INFO     - Closed!
+[2020-03-04 17:02:49,740] sopel.bot            INFO     - Loading plugins...
+[2020-03-04 17:02:49,751] sopel.bot            INFO     - Plugin loaded: countdown
+[2020-03-04 17:02:49,760] sopel.bot            INFO     - Plugin loaded: dice
+[2020-03-04 17:02:49,766] sopel.bot            INFO     - Plugin loaded: pronouns
+[2020-03-04 17:02:49,873] sopel.bot            INFO     - Plugin loaded: safety
+[2020-03-04 17:02:49,887] sopel.bot            INFO     - Plugin loaded: units
+[2020-03-04 17:02:49,898] sopel.bot            INFO     - Plugin loaded: remind
+[2020-03-04 17:02:49,901] sopel.bot            INFO     - Plugin loaded: tld
+[2020-03-04 17:02:49,908] sopel.bot            INFO     - Plugin loaded: wiktionary
+[2020-03-04 17:02:49,916] sopel.bot            INFO     - Plugin loaded: xkcd
+[2020-03-04 17:02:49,969] sopel.bot            INFO     - Plugin loaded: reddit
+[2020-03-04 17:02:49,980] sopel.bot            INFO     - Plugin loaded: reload
+[2020-03-04 17:02:49,983] sopel.bot            INFO     - Plugin loaded: etymology
+[2020-03-04 17:02:49,995] sopel.bot            INFO     - Plugin loaded: search
+[2020-03-04 17:02:50,005] sopel.bot            INFO     - Plugin loaded: translate
+[2020-03-04 17:02:50,008] sopel.bot            INFO     - Plugin loaded: unicode_info
+[2020-03-04 17:02:50,035] sopel.bot            INFO     - Plugin loaded: adminchannel
+[2020-03-04 17:02:50,036] sopel.bot            INFO     - Plugin loaded: find_updates
+[2020-03-04 17:02:50,063] sopel.bot            INFO     - Plugin loaded: admin
+[2020-03-04 17:02:50,065] sopel.bot            INFO     - Plugin loaded: bugzilla
+[2020-03-04 17:02:50,067] sopel.bot            INFO     - Plugin loaded: announce
+[2020-03-04 17:02:50,070] sopel.bot            INFO     - Plugin loaded: rand
+[2020-03-04 17:02:50,078] sopel.bot            INFO     - Plugin loaded: help
+[2020-03-04 17:02:50,081] sopel.bot            INFO     - Plugin loaded: uptime
+[2020-03-04 17:02:50,085] sopel.bot            INFO     - Plugin loaded: version
+[2020-03-04 17:02:50,093] sopel.bot            INFO     - Plugin loaded: lmgtfy
+[2020-03-04 17:02:50,095] sopel.bot            INFO     - Plugin loaded: find
+[2020-03-04 17:02:50,134] sopel.bot            INFO     - Plugin loaded: clock
+[2020-03-04 17:02:50,173] sopel.bot            INFO     - Plugin loaded: emoticons
+[2020-03-04 17:02:50,180] sopel.bot            INFO     - Plugin loaded: wikipedia
+[2020-03-04 17:02:50,187] sopel.bot            INFO     - Plugin loaded: choose
+[2020-03-04 17:02:50,189] sopel.bot            INFO     - Plugin loaded: ping
+[2020-03-04 17:02:50,194] sopel.bot            INFO     - Plugin loaded: calc
+[2020-03-04 17:02:50,196] sopel.bot            INFO     - Plugin loaded: seen
+[2020-03-04 17:02:50,204] sopel.bot            INFO     - Plugin loaded: currency
+[2020-03-04 17:02:50,230] sopel.bot            INFO     - Plugin loaded: meetbot
+[2020-03-04 17:02:50,233] sopel.bot            INFO     - Plugin loaded: url
+[2020-03-04 17:02:50,249] sopel.bot            INFO     - Plugin loaded: ip
+[2020-03-04 17:02:50,252] sopel.bot            INFO     - Plugin loaded: py
+[2020-03-04 17:02:50,254] sopel.bot            INFO     - Plugin loaded: invite
+[2020-03-04 17:02:50,258] sopel.bot            INFO     - Plugin loaded: isup
+[2020-03-04 17:02:50,260] sopel.bot            INFO     - Plugin loaded: instagram
+[2020-03-04 17:02:50,268] sopel.bot            INFO     - Plugin loaded: tell
+[2020-03-04 17:02:50,270] sopel.bot            INFO     - Plugin loaded: pointBot
+[2020-03-04 17:02:50,280] sopel.bot            INFO     - Plugin loaded: coretasks
+[2020-03-04 17:02:50,281] sopel.bot            INFO     - Registered 43 plugins, 0 failed, 0 disabled
+[2020-03-04 17:02:50,281] sopel.irc.backends   INFO     - Connecting to 10.4.163.34:6667...
+[2020-03-04 17:02:50,284] sopel.irc.backends   INFO     - Connection accepted by the server...
+[2020-03-04 17:02:50,285] sopel.irc            INFO     - Connected.
+[2020-03-04 17:02:51,579] sopel.coretasks      INFO     - Joining 1 channels (with JOIN throttle OFF); this may take a moment.
+[2020-03-04 17:02:51,723] sopel.coretasks      INFO     - Channel joined: #point

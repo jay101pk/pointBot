@@ -1,0 +1,121 @@
+[2020-03-04 16:24:36,126] sopel.irc            ERROR    - Nickname already in use!
+[2020-03-04 16:26:14,663] sopel.irc            ERROR    - ERROR received from server: Closing link: (sopel@jlogerqubox.adtran.com) [Quit: Closing]
+[2020-03-04 16:50:31,256] sopel.bot            ERROR    - Error loading pointBot: invalid syntax (pointBot.py, line 5)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/sopel/bot.py", line 206, in setup_plugins
+    plugin.load()
+  File "/usr/local/lib/python3.6/dist-packages/sopel/plugins/handlers.py", line 361, in load
+    self._module = self._load()
+  File "/usr/local/lib/python3.6/dist-packages/sopel/plugins/handlers.py", line 344, in _load
+    mod = imp.load_module(self.name, mod, self.path, description)
+  File "/usr/lib/python3.6/imp.py", line 235, in load_module
+    return load_source(name, filename, file)
+  File "/usr/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jlogerqu/git/irc/sopel/plugins/pointBot.py", line 5
+    amount = (int)trigger.group(1)[1:]
+                        ^
+SyntaxError: invalid syntax
+[2020-03-04 16:50:35,451] sopel.irc            ERROR    - ERROR received from server: Closing link: (sopel@jlogerqubox.adtran.com) [Quit: Closing]
+[2020-03-04 16:51:25,764] sopel.bot            ERROR    - Error in pointBot setup: nothing to repeat at position 0
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/sopel/bot.py", line 214, in setup_plugins
+    plugin.register(self)
+  File "/usr/local/lib/python3.6/dist-packages/sopel/plugins/handlers.py", line 261, in register
+    relevant_parts = loader.clean_module(self._module, bot.config)
+  File "/usr/local/lib/python3.6/dist-packages/sopel/loader.py", line 164, in clean_module
+    clean_callable(obj, config)
+  File "/usr/local/lib/python3.6/dist-packages/sopel/loader.py", line 77, in clean_callable
+    func.rule = [compile_rule(nick, rule, alias_nicks) for rule in func.rule]
+  File "/usr/local/lib/python3.6/dist-packages/sopel/loader.py", line 77, in <listcomp>
+    func.rule = [compile_rule(nick, rule, alias_nicks) for rule in func.rule]
+  File "/usr/local/lib/python3.6/dist-packages/sopel/tools/__init__.py", line 90, in compile_rule
+    return re.compile(pattern, flags)
+  File "/usr/lib/python3.6/re.py", line 233, in compile
+    return _compile(pattern, flags)
+  File "/usr/lib/python3.6/re.py", line 301, in _compile
+    p = sre_compile.compile(pattern, flags)
+  File "/usr/lib/python3.6/sre_compile.py", line 562, in compile
+    p = sre_parse.parse(p, flags)
+  File "/usr/lib/python3.6/sre_parse.py", line 855, in parse
+    p = _parse_sub(source, pattern, flags & SRE_FLAG_VERBOSE, 0)
+  File "/usr/lib/python3.6/sre_parse.py", line 416, in _parse_sub
+    not nested and not items))
+  File "/usr/lib/python3.6/sre_parse.py", line 616, in _parse
+    source.tell() - here + len(this))
+sre_constants.error: nothing to repeat at position 0
+[2020-03-04 16:51:28,348] sopel.irc            ERROR    - ERROR received from server: Closing link: (sopel@jlogerqubox.adtran.com) [Quit: Closing]
+[2020-03-04 16:53:46,794] sopel.bot            ERROR    - Error in pointBot setup: nothing to repeat at position 0
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/sopel/bot.py", line 214, in setup_plugins
+    plugin.register(self)
+  File "/usr/local/lib/python3.6/dist-packages/sopel/plugins/handlers.py", line 261, in register
+    relevant_parts = loader.clean_module(self._module, bot.config)
+  File "/usr/local/lib/python3.6/dist-packages/sopel/loader.py", line 164, in clean_module
+    clean_callable(obj, config)
+  File "/usr/local/lib/python3.6/dist-packages/sopel/loader.py", line 77, in clean_callable
+    func.rule = [compile_rule(nick, rule, alias_nicks) for rule in func.rule]
+  File "/usr/local/lib/python3.6/dist-packages/sopel/loader.py", line 77, in <listcomp>
+    func.rule = [compile_rule(nick, rule, alias_nicks) for rule in func.rule]
+  File "/usr/local/lib/python3.6/dist-packages/sopel/tools/__init__.py", line 90, in compile_rule
+    return re.compile(pattern, flags)
+  File "/usr/lib/python3.6/re.py", line 233, in compile
+    return _compile(pattern, flags)
+  File "/usr/lib/python3.6/re.py", line 301, in _compile
+    p = sre_compile.compile(pattern, flags)
+  File "/usr/lib/python3.6/sre_compile.py", line 562, in compile
+    p = sre_parse.parse(p, flags)
+  File "/usr/lib/python3.6/sre_parse.py", line 855, in parse
+    p = _parse_sub(source, pattern, flags & SRE_FLAG_VERBOSE, 0)
+  File "/usr/lib/python3.6/sre_parse.py", line 416, in _parse_sub
+    not nested and not items))
+  File "/usr/lib/python3.6/sre_parse.py", line 616, in _parse
+    source.tell() - here + len(this))
+sre_constants.error: nothing to repeat at position 0
+[2020-03-04 16:53:49,067] sopel.irc            ERROR    - ERROR received from server: Closing link: (sopel@jlogerqubox.adtran.com) [Quit: Closing]
+[2020-03-04 16:56:50,748] sopel.bot            ERROR    - Unexpected error (no such group) from JSON at 2020-03-04 16:56:50.748526. Message was: +1
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/sopel/bot.py", line 590, in call
+    exit_code = func(sopel, trigger)
+  File "/home/jlogerqu/git/irc/sopel/plugins/pointBot.py", line 5, in addGPoints
+    amount = trigger.group(1)
+IndexError: no such group
+[2020-03-04 16:57:16,300] sopel.bot            ERROR    - Unexpected error (no such group) from JSON at 2020-03-04 16:57:16.300670. Message was: +2
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/sopel/bot.py", line 590, in call
+    exit_code = func(sopel, trigger)
+  File "/home/jlogerqu/git/irc/sopel/plugins/pointBot.py", line 5, in addGPoints
+    amount = trigger.group(1)
+IndexError: no such group
+[2020-03-04 16:57:22,299] sopel.bot            ERROR    - Unexpected error (no such group) from JSON at 2020-03-04 16:57:22.299509. Message was: +3
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/sopel/bot.py", line 590, in call
+    exit_code = func(sopel, trigger)
+  File "/home/jlogerqu/git/irc/sopel/plugins/pointBot.py", line 5, in addGPoints
+    amount = trigger.group(1)
+IndexError: no such group
+[2020-03-04 16:58:13,278] sopel.irc            ERROR    - ERROR received from server: Closing link: (sopel@jlogerqubox.adtran.com) [Quit: Closing]
+[2020-03-04 16:58:25,003] sopel.bot            ERROR    - Unexpected error (%d format: a number is required, not str) from JSON at 2020-03-04 16:58:25.003668. Message was: +3 jason
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/sopel/bot.py", line 590, in call
+    exit_code = func(sopel, trigger)
+  File "/home/jlogerqu/git/irc/sopel/plugins/pointBot.py", line 7, in addGPoints
+    bot.reply('added %d points to %s' % (amount, words[0]))
+TypeError: %d format: a number is required, not str
+[2020-03-04 16:59:24,683] sopel.bot            ERROR    - Unexpected error (%d format: a number is required, not str) from JSON at 2020-03-04 16:59:24.683864. Message was: +3 jason
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/sopel/bot.py", line 590, in call
+    exit_code = func(sopel, trigger)
+  File "/home/jlogerqu/git/irc/sopel/plugins/pointBot.py", line 7, in addGPoints
+    bot.reply('added %d points to %s' % (amount, words[0]))
+TypeError: %d format: a number is required, not str
+[2020-03-04 16:59:43,917] sopel.irc            ERROR    - ERROR received from server: Closing link: (sopel@jlogerqubox.adtran.com) [Quit: Restarting]
+[2020-03-04 17:00:53,401] sopel.irc            ERROR    - ERROR received from server: Closing link: (sopel@jlogerqubox.adtran.com) [Quit: Restarting]
+[2020-03-04 17:01:44,547] sopel.irc            ERROR    - ERROR received from server: Closing link: (sopel@jlogerqubox.adtran.com) [Quit: Restarting]
+[2020-03-04 17:02:40,929] sopel.irc            ERROR    - ERROR received from server: Closing link: (sopel@jlogerqubox.adtran.com) [Quit: Restarting]
