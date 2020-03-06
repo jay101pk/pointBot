@@ -3,5 +3,5 @@ logs/**
 *.db
 *.pid
 *.pyc
-
+malwaredomains.txt
 
