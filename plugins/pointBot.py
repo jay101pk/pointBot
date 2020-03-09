@@ -386,7 +386,7 @@ def unaliasNick(db, nick):
 
 def checkPlayerReset(db, user):
     lastday = db.get_nick_value(user, "lastday", "0")
-    currentday = datetime.today().strtime("%m")
+    currentday = datetime.today().strtime("%d")
     if lastday != currentday:
         db.set_nick_value(user, "lastday", currentday)
         setgpts(db, user, 10)
