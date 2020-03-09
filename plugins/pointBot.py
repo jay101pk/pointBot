@@ -2,18 +2,15 @@
 A plugin for sopel bot that runs a game called pointBot
 By: Jason Logerquist
 """
-from sopel import module
-from sopel.tools import Identifier
-
+from sopel import module, tools
 from datetime import datetime
-import re
+
 pluginName = "pointBot"
 
 startHour = 8
 stopHour = 17
 
-ptExpr = r"^(\+|-)(\d+)\s(?:to\s)?(\w+).*$"
-timeExpr = r"^(\d+):(\d+):(\d+)"
+ptsExpr = r"^(\+|-)(\d+)\s(?:to\s)?(\w+).*$"
 
 def setup(bot):
     updateGameRunning(bot)
@@ -23,20 +20,11 @@ def updateGameRunning(bot):
     """
     Gets game state and last hour from db to determine whether to change game state
     """
-    gameRunning = getGameRunning(bot.db, pluginName)
-    lastSaveHour = getLastHour(bot.db, pluginName)
-    workhour = lastSaveHour >= startHour and lastSaveHour < stopHour
+    currentHour = datetime.now().hour
+    workhour = currentHour >= startHour and currentHour < stopHour
 
-    if gameRunning and not workhour:
-        setGameRunning(bot.db, pluginName, False)
+    setGameRunning(bot.db, pluginName, workhour)
 
-    if not gameRunning and workhour:
-        setGameRunning(bot.db, pluginName, True)
-        # resetGame(bot.db, bot.users)
-
-    time = re.match(timeExpr, str(datetime.now().time()))
-    hour = int(time.group(1))
-    setLastHour(bot.db, pluginName, hour)
 
 
 @module.interval(300)
@@ -47,7 +35,7 @@ def checkGameRunning(bot):
     updateGameRunning(bot)
 
 
-@module.rule(ptExpr)
+@module.rule(ptsExpr)
 def addGPoints(bot, trigger):
     """
     Regex that catches increment and decrement of user pts
@@ -73,7 +61,7 @@ def addGPoints(bot, trigger):
         players = getPlayers(bot.db, bot.users)
         buser = user in players
         if not buser:
-            bot.say("That is not a player", trigger.nick)
+            bot.say("Invalid player", trigger.nick)
             return
 
         checkPlayerReset(bot.db, trigger.nick)
@@ -146,7 +134,7 @@ def setptscommand(bot, trigger):
     try:
         args[1] = int(args[1])
     except ValueError:
-        bot.say("Bad number", trigger.nick)
+        bot.say("Invalid number", trigger.nick)
         return
 
     buser = getUserFromUsers(args[0], bot.users)
@@ -157,7 +145,7 @@ def setptscommand(bot, trigger):
         for user in players:
             setpts(bot.db, user, args[1])
     else:
-        bot.say("Not a valid user option", trigger.nick)
+        bot.say("Invalid user option", trigger.nick)
 
 
 @module.require_admin()
@@ -171,7 +159,7 @@ def setgptscommand(bot, trigger):
     try:
         args[1] = int(args[1])
     except ValueError:
-        bot.say("Bad number", trigger.nick)
+        bot.say("Invalid number", trigger.nick)
         return
 
     buser = getUserFromUsers(args[0], bot.users)
@@ -182,7 +170,7 @@ def setgptscommand(bot, trigger):
         for user in players:
             setgpts(bot.db, user, args[1])
     else:
-        bot.say("Not a valid user option", trigger.nick)
+        bot.say("Invalid user option", trigger.nick)
 
 
 @module.require_admin()
@@ -193,7 +181,7 @@ def setbotcommand(bot, trigger):
     """
     args = trigger.group(2).split()
     if len(args) < 2:
-        bot.reply("Wrong usage")
+        bot.say("Not enough arguments", trigger.nick)
         return
     user = getUserFromUsers(args[0], bot.users)
     isbot = args[1].lower() in ['true', '1', 't', 'y', 'yes']
@@ -209,7 +197,7 @@ def setignorecommand(bot, trigger):
     """
     args = trigger.group(2).split()
     if len(args) < 1:
-        bot.reply("Wrong usage")
+        bot.say("User not specified", trigger.nick)
         return
     user = getUserFromUsers(args[0], bot.users)
     if user is not None:
@@ -224,7 +212,7 @@ def setunignorecommand(bot, trigger):
     """
     args = trigger.group(2).split()
     if len(args) < 1:
-        bot.reply("Wrong usage")
+        bot.say("User not specified", trigger.nick)
         return
     user = getUserFromUsers(args[0], bot.users)
     if user is not None:
@@ -248,7 +236,7 @@ def statuscommand(bot, trigger):
         user = args[0]
         players = getPlayers(bot.db, bot.users)
         if user not in players:
-            bot.reply("Invalid name")
+            bot.reply("Invalid user")
         else:
             checkPlayerReset(bot.db, user)
             userpts = getpts(bot.db, user)
@@ -346,7 +334,7 @@ def setLastHour(db, plugin, value):
 
 
 def getUserFromUsers(nick, users):
-    return users.get(Identifier(nick))
+    return users.get(tools.Identifier(nick))
 
 
 def getUserBotStatus(db, user):
@@ -385,8 +373,11 @@ def unaliasNick(db, nick):
 
 
 def checkPlayerReset(db, user):
-    lastday = db.get_nick_value(user, "lastday", "0")
-    currentday = datetime.today().strtime("%d")
+    """
+    Check the last day the user has taken an action, if not today, set their gpts to 10
+    """
+    lastday = db.get_nick_value(user, "lastday", 0)
+    currentday = datetime.now().day
     if lastday != currentday:
         db.set_nick_value(user, "lastday", currentday)
         setgpts(db, user, 10)
